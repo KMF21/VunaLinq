@@ -85,7 +85,7 @@ const Banner = () => {
       >
         {bannerData.map((bd, ind) => (
           <SwiperSlide key={ind} bd={bd}>
-            <div className="grid grid-cols-1 lg:grid-cols-2  overflow-x-hidden py-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2  overflow-x-hidden py-5 items-center">
               <div>
                 <motion.div
                   initial={{ scaleX: 0.7, opacity: 0, visibility: 'hidden' }}
